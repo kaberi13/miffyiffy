@@ -1,5 +1,5 @@
 import ProductDetails from "../../components/ProductCard/Productdetails";
-import img5 from '../../assets/Keychains/Tata.jpg'
+import img12 from '../../assets/Keychains/Turtle.jpg'
 import '../../components/ProductCard/ProductDetails.css'
 import Header from "../../components/Home/Header"
 import Footer from "../../components/Footer/Footer";
@@ -7,13 +7,13 @@ import Navbar from "../../components/Navbar/Navbar";
 
 
 
-function Kpage1(){
+function Kpage12(){
     return(
         <>
         <Header/>
         <Navbar/>
         <ProductDetails className='Product-details' 
-        image={img5} name='Tata' price='220'
+        image={img12} name='Turtle' price='220'
         />
         
         <Footer/>
@@ -23,4 +23,4 @@ function Kpage1(){
       </>
     );
 }
-export default Kpage1
+export default Kpage12
