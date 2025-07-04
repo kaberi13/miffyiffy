@@ -1,4 +1,4 @@
-import img2 from '../../assets/Bouquets/BlueRose.jpg'
+import img2 from '../../assets/Bouquets/PinkandWhiteRose.jpg'
 import ProductDetails from '../../components/ProductCard/Productdetails'
 import Header from '../../components/Home/Header'
 import Footer from '../../components/Footer/Footer'
@@ -10,7 +10,7 @@ function Page2(){
         <Header/>
         <Navbar/>
         <ProductDetails className='Product-details'
-        image={img2} name='Blue Roses' price='100'/>
+        image={img2} name='(Pink,White) Rose' price='300'/>
         <Footer/>
         </>
     );

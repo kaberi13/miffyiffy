@@ -14,7 +14,7 @@ import Cart from "./components/OtherPages/Cart";
 import PrivateRoute from "./components/Auth/PrivateRoute";
 import ProductPage from "./components/OtherPages/ProductPage";
 
-// Product Pages
+// Product Pages for keychain
 import Kpage1 from "./pages/Page1/Kpage1";
 import Kpage2 from "./pages/Page2/Kpage2";
 import Kpage3 from "./pages/Page3/Kpage3";
@@ -25,6 +25,19 @@ import Kpage7 from "./pages/Page7/Kpage7";
 // import Kpage8 from "./pages/Page8/Kpage8";
 import Kpage9 from "./pages/Page9/Kpage9";
 import Kpage10 from "./pages/Page10/Kpage10";
+
+//Product pages for bouquet
+import Page1 from './pages/Page1/Page1'
+import Page2 from './pages/Page2/Page2'
+import Page3 from './pages/Page3/Page3'
+import Page4 from './pages/Page4/Page4'
+import Page5 from './pages/Page5/Page5'
+import Page6 from './pages/Page6/Page6'
+import Page7 from './pages/Page7/Page7'
+import Page9 from './pages/Page9/Page9'
+import Page10 from "./pages/Page10/Page10";
+
+
 
 // Categories
 import Bagcharm from "./pages/Bagcharm/Bagcharm";
@@ -82,6 +95,18 @@ function AppWrapper() {
         <Route path="/categories/keychain/Piggy" element={<Kpage7 />} />
         <Route path="/categories/keychain/Duck" element={<Kpage9 />} />
         <Route path="/categories/keychain/MiniBouquet" element={<Kpage10 />} />
+
+        
+        <Route path="/categories/bouquet/Sunflower" element={<Page1 />} />
+        <Route path="/categories/bouquet/PinkandWhiteRose" element={<Page2 />} />
+        <Route path="/categories/bouquet/RoseBouquet" element={<Page3 />} />
+        <Route path="/categories/bouquet/DoubleLayeredRose" element={<Page4 />} />
+        <Route path="/categories/bouquet/tulip" element={<Page5 />} />
+        <Route path="/categories/bouquet/BlueRose" element={<Page6 />} />
+        <Route path="/categories/bouquet/mixedbouquet" element={<Page7 />} />
+        <Route path="/categories/bouquet/RedRose" element={<Page9 />} />
+        <Route path="/categories/bouquet/Lily" element={<Page10 />} />
+        
 
         <Route
           path="/cart"

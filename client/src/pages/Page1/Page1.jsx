@@ -1,5 +1,5 @@
 import ProductDetails from "../../components/ProductCard/Productdetails";
-import img1 from '../../assets/Bouquets/tulip.jpg'
+import img1 from '../../assets/Bouquets/Sunflower.jpg'
 import '../../components/ProductCard/ProductDetails.css'
 import Header from "../../components/Home/Header"
 import Footer from "../../components/Footer/Footer";
@@ -13,7 +13,7 @@ function Page1(){
         <Header/>
         <Navbar/>
         <ProductDetails className='Product-details' 
-        image={img1} name='Mixed Rose,Tulip' price='150'
+        image={img1} name='Sunflower' price='300'
         />
         
         <Footer/>

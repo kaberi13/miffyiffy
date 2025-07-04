@@ -1,4 +1,4 @@
-import img3 from '../../assets/Bouquets/mixedbouquet.jpg'
+import img3 from '../../assets/Bouquets/RoseBouquet.jpg'
 import ProductDetails from '../../components/ProductCard/Productdetails'
 import Header from '../../components/Home/Header'
 import Footer from '../../components/Footer/Footer'
@@ -11,7 +11,7 @@ function Page3(){
         <Header/>
         <Navbar/>
         <ProductDetails className='Product-details'
-        image={img3} name='Mixed Flowers' price='100'/>
+        image={img3} name='Rose Bouquet' price='300'/>
         <Footer/>
         </>
     );
