@@ -1,26 +1,28 @@
 
 import { useState } from 'react';
-import './Bagcharm.css';
+import './Neckchain.css';
 import '../../components/Card/Card.css';
 import '../../components/Footer/Footer.css';
 import '../../components/Home/Header.css';
+
 import Header from '../../components/Home/Header';
 import Card from '../../components/Card/Card';
 import Footer from '../../components/Footer/Footer';
 import Navbar from '../../components/Navbar/Navbar';
 
-import img1 from '../../assets/Bagcharm/peachcharm.jpg';
-import img2 from '../../assets/Bagcharm/starcharm.jpg';
-import img3 from '../../assets/Bagcharm/Bowbutterfly.jpg';
+import img1 from '../../assets/neckchain1.jpg';
+import img2 from '../../assets/neckchain2.jpg';
 
-function Bagcharm() {
+function Neckchain() {
   const [wishlist, setWishlist] = useState([]);
 
   const handleWishlistToggle = (itemData) => {
     if (itemData.isWishlisted) {
-      setWishlist(prev => [...prev, itemData]);
+      setWishlist((prev) => [...prev, itemData]);
+      console.log(`Added ${itemData.tittle} to wishlist`);
     } else {
-      setWishlist(prev => prev.filter(item => item.title !== itemData.title));
+      setWishlist((prev) => prev.filter((item) => item.tittle !== itemData.tittle));
+      console.log(`Removed ${itemData.tittle} from wishlist`);
     }
   };
 
@@ -28,7 +30,7 @@ function Bagcharm() {
     <>
       <Header />
       <Navbar />
-      <h1>Bagcharm</h1>
+      <h1>Neckchains</h1>
 
       {wishlist.length > 0 && (
         <div className="wishlist-info">
@@ -36,29 +38,20 @@ function Bagcharm() {
         </div>
       )}
 
-      <div className='card-container'>
+      <div className="card-container">
         <Card
           image={img1}
-          tittle="Peach Charm"
-          price="220"
-          link="/categories/bagcharm/PeachCharm"
+          tittle="Hearts & Bows"
+          price="200"
           onWishlistToggle={handleWishlistToggle}
+          link="/categories/neckchain/HeartsAndBows"
         />
-
         <Card
           image={img2}
-          tittle="Star Charm"
-          price="260"
-          link="/categories/bagcharm/StarCharm"
+          tittle="Cherry Bow"
+          price="200"
           onWishlistToggle={handleWishlistToggle}
-        />
-
-        <Card
-          image={img3}
-          tittle="Bow Butterfly"
-          price="320"
-          link="/categories/bagcharm/BowButterfly"
-          onWishlistToggle={handleWishlistToggle}
+          link="/categories/neckchain/CherryBow"
         />
       </div>
 
@@ -67,4 +60,4 @@ function Bagcharm() {
   );
 }
 
-export default Bagcharm;
+export default Neckchain;

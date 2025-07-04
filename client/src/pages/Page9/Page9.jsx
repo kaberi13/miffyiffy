@@ -1,4 +1,4 @@
-import img9 from '../../assets/Bouquets/RoseBouquet.jpg'
+import img9 from '../../assets/Bouquets/RedRose.jpg'
 import ProductDetails from '../../components/ProductCard/Productdetails'
 import Header from '../../components/Home/Header'
 import Footer from '../../components/Footer/Footer'
@@ -11,7 +11,7 @@ function Page9(){
         <Header/>
         <Navbar/>
         <ProductDetails className='Product-details'
-        image={img9} name='Rose Bouquet' price='100'/>
+        image={img9} name='Red Rose' price='150'/>
         <Footer/>
         </>
     );

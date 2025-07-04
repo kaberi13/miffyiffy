@@ -1,4 +1,4 @@
-import img6 from '../../assets/Bouquets/Sunflower.jpg'
+import img6 from '../../assets/Bouquets/BlueRose.jpg'
 import ProductDetails from '../../components/ProductCard/Productdetails'
 import Header from '../../components/Home/Header'
 import Footer from '../../components/Footer/Footer'
@@ -11,7 +11,7 @@ function Page6(){
         <Header/>
         <Navbar/>
         <ProductDetails className='Product-details'
-        image={img6} name='Sunflower,Rose' price='100'/>
+        image={img6} name='Blue Rose' price='200'/>
         <Footer/>
         </>
     );

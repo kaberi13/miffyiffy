@@ -1,4 +1,4 @@
-import img5 from '../../assets/Bouquets/DoubleLayeredRose.jpg'
+import img5 from '../../assets/Bouquets/tulip.jpg'
 import ProductDetails from '../../components/ProductCard/Productdetails'
 import Header from '../../components/Home/Header'
 import Footer from '../../components/Footer/Footer'
@@ -11,7 +11,7 @@ function Page5(){
         <Header/>
         <Navbar/>
         <ProductDetails className='Product-details'
-        image={img5} name='Double Rose' price='100'/>
+        image={img5} name='Tulip&Roses' price='100'/>
         <Footer/>
         </>
     );
