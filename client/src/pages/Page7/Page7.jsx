@@ -1,4 +1,4 @@
-import img7 from '../../assets/Bouquets/mixedbouquet.jpg'
+import img7 from '../../assets/Bouquets/MixedBouquet.jpg'
 import ProductDetails from '../../components/ProductCard/Productdetails'
 import Header from '../../components/Home/Header'
 import Footer from '../../components/Footer/Footer'
@@ -10,7 +10,7 @@ function Page7(){
         <Header/>
         <Navbar/>
         <ProductDetails className='Product-details'
-        image={img7} name='Mixed flowers' price='300'/>
+        image={img7} name='Mixed Bouquet' price='300'/>
         <Footer/>
         </>
     );

@@ -11,7 +11,7 @@ function Page4(){
         <Header/>
         <Navbar/>
         <ProductDetails className='Product-details'
-        image={img4} name='Double Layered Rose' price='300'/>
+        image={img4} name='Double Layered Rose' price='250'/>
         <Footer/>
         </>
     );

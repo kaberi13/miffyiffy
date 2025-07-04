@@ -10,7 +10,7 @@ function Page2(){
         <Header/>
         <Navbar/>
         <ProductDetails className='Product-details'
-        image={img2} name='(Pink,White) Rose' price='300'/>
+        image={img2} name='Pink and White Rose' price='350'/>
         <Footer/>
         </>
     );
