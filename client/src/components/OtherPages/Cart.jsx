@@ -1,32 +1,11 @@
-
-
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import CartItems from './CartItems';
 import OrderSummary from './OrderSummary';
-import f1 from '../../assets/f1.jpg';
 
 export default function Cart() {
   const navigate = useNavigate();
-
-  const [cartItems, setCartItems] = useState([
-    {
-      id: 1,
-      title: 'Kuromi phonecharm',
-      price: 320,
-      quantity: 1,
-      option: 'Pink',
-      image: f1,
-    },
-    {
-      id: 2,
-      title: 'Melody bracelet',
-      price: 250,
-      quantity: 2,
-      option: 'Red',
-      image: f1,
-    }
-  ]);
+  const [cartItems, setCartItems] = useState([]);
 
   const updateQuantity = (id, amount) => {
     setCartItems(prev =>
@@ -40,6 +19,20 @@ export default function Cart() {
 
   const removeItem = id => {
     setCartItems(prev => prev.filter(item => item.id !== id));
+  };
+
+  const addItem = (newItem) => {
+    setCartItems(prev => {
+      const existingItem = prev.find(item => item.id === newItem.id);
+      if (existingItem) {
+        return prev.map(item =>
+          item.id === newItem.id
+            ? { ...item, quantity: item.quantity + 1 }
+            : item
+        );
+      }
+      return [...prev, { ...newItem, quantity: 1 }];
+    });
   };
 
   const subtotal = cartItems.reduce((sum, item) => sum + item.price * item.quantity, 0);
@@ -63,20 +56,41 @@ export default function Cart() {
           ← Back to Home
         </button>
       </div>
-
       <h2>My Cart</h2>
       <div className="cart-content">
-        <CartItems
-          items={cartItems}
-          onUpdate={updateQuantity}
-          onRemove={removeItem}
-        />
-        <OrderSummary
-          subtotal={subtotal}
-          delivery={delivery}
-          total={total}
-          onCheckout={() => navigate("/checkout")}
-        />
+        {cartItems.length === 0 ? (
+          <div className="empty-cart">
+            <p>Your cart is empty</p>
+            <button
+              onClick={() => navigate("/")}
+              style={{
+                padding: "12px 24px",
+                backgroundColor: "#007bff",
+                color: "white",
+                border: "none",
+                borderRadius: "4px",
+                cursor: "pointer",
+                fontSize: "16px"
+              }}
+            >
+              Start Shopping
+            </button>
+          </div>
+        ) : (
+          <>
+            <CartItems
+              items={cartItems}
+              onUpdate={updateQuantity}
+              onRemove={removeItem}
+            />
+            <OrderSummary
+              subtotal={subtotal}
+              delivery={delivery}
+              total={total}
+              onCheckout={() => navigate("/checkout")}
+            />
+          </>
+        )}
       </div>
     </div>
   );
