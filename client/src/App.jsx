@@ -43,6 +43,11 @@ import Ppage1 from "./pages/Page1/Ppage1";
 import Ppage2 from "./pages/Page2/Ppage2";
 import Ppage3 from "./pages/Page3/Ppage3";
 import Ppage4 from "./pages/Page4/Ppage4";
+import Ppage5 from "./pages/Page5/Ppage5";
+import Ppage6 from "./pages/Page6/Ppage6";
+import Ppage7 from "./pages/Page7/Ppage7";
+import Ppage8 from "./pages/Page8/Ppage8";
+
 
 // Product Detail Pages - Bracelet
 import Brpage1 from "./pages/Page1/Brpage1";
@@ -145,22 +150,30 @@ function App() {
         <Route path="/categories/bagcharm/PeachCharm" element={<Bpage1 />} />
         <Route path="/categories/bagcharm/StarCharm" element={<Bpage2 />} />
         <Route path="/categories/bagcharm/BowButterfly" element={<Bpage3 />} />
-
-        {/* Bouquet Product Details */}
+ {/* Bouquet Product Details */}
         <Route path="/categories/bouquet/Sunflower" element={<Page1 />} />
         <Route path="/categories/bouquet/PinkandWhiteRose" element={<Page2 />} />
         <Route path="/categories/bouquet/RoseBouquet" element={<Page3 />} />
         <Route path="/categories/bouquet/DoubleLayeredRose" element={<Page4 />} />
+<<<<<<< HEAD
         <Route path="/categories/bouquet/Tulip-Roses" element={<Page5 />} />
+=======
+        <Route path="/categories/bouquet/tulip" element={<Page5 />} />
+>>>>>>> cd6334f1e8ba4a00363350fd6a8cd9d2b6c05226
         <Route path="/categories/bouquet/BlueRose" element={<Page6 />} />
-        <Route path="/categories/bouquet/MixedBouquet" element={<Page7 />} />
+        <Route path="/categories/bouquet/mixedbouquet" element={<Page7 />} />
         <Route path="/categories/bouquet/RedRose" element={<Page9 />} />
 
         {/* Phonecharm Product Details */}
-        <Route path="/categories/phonecharm/Cinnamonroll" element={<Ppage1 />} />
-        <Route path="/categories/phonecharm/GreenButterfly" element={<Ppage2 />} />
-        <Route path="/categories/phonecharm/PinkButterfly" element={<Ppage3 />} />
-        <Route path="/categories/phonecharm/Kuromi" element={<Ppage4 />} />
+        <Route path="/categories/phonecharm/bluecinnamonroll" element={<Ppage1 />} />
+        <Route path="/categories/phonecharm/greenbutterfly" element={<Ppage2 />} />
+        <Route path="/categories/phonecharm/pinkbutterfly" element={<Ppage3 />} />
+        <Route path="/categories/phonecharm/kuromi" element={<Ppage4 />} />
+        <Route path="/categories/phonecharm/kuromicharm" element={<Ppage5 />} />
+        <Route path="/categories/phonecharm/cinnamoncharm" element={<Ppage6 />} />
+        <Route path="/categories/phonecharm/pompomcharm" element={<Ppage7 />} />
+        <Route path="/categories/phonecharm/hellokittycharm" element={<Ppage8 />} />
+
 
         {/* Bracelet Product Details */}
         <Route path="/categories/bracelet/StarBracelet" element={<Brpage1 />} />

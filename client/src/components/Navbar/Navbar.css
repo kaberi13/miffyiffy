@@ -12,10 +12,14 @@
 
 
 
+:root {
+  --nav-gap: 2rem;
+}
+
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 160px;
+  gap: var(--nav-gap, 2rem);
   padding: 0;
   margin: 0;
   justify-content: center;
@@ -30,4 +34,10 @@
 
 .nav-links li a:hover {
   color: black;
+}
+
+.nav-links a.active {
+  color:black;
+  font-weight: bold;
+  /* Add any other active styles you want */
 }

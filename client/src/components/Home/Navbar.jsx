@@ -6,7 +6,7 @@ import "./Navbar.css";
 
 import pink_cart from "../../assets/pink-cart.jpg";
 import pink_pfp from "../../assets/pink-pfp.jpg";
-import menu_icon from "../../assets/menuicon.png";
+
 
 export default function NavBar() {
   const { user, logout } = useContext(AuthContext);
@@ -35,9 +35,7 @@ export default function NavBar() {
 
   return (
     <nav className="container">
-      {/* <div id="menuicon">
-        <img src={menu_icon} alt="menu" />
-      </div> */}
+      
 
       
 

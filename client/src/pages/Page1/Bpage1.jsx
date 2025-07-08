@@ -7,20 +7,22 @@ import Navbar from "../../components/Navbar/Navbar";
 
 
 
-function Bpage1(){
-    return(
-        <>
-        <Header/>
-        <Navbar/>
-        <ProductDetails className='Product-details' 
+
+function Bpage1() {
+return (
+    <>
+      <Header />
+      <Navbar />
+      <ProductDetails className='Product-details'
         image={img1} name='Peach Charm' price='220'
-        />
         
-        <Footer/>
+      />
 
-         
+      <Footer />
 
-      </>
-    );
+
+
+    </>
+  );
 }
 export default Bpage1

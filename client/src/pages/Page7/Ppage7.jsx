@@ -1,9 +1,5 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> cd6334f1e8ba4a00363350fd6a8cd9d2b6c05226
 import ProductDetails from "../../components/ProductCard/Productdetails";
-import img8 from '../../assets/Keychains/StrawberryPiggy.jpg'
+import img7 from '../../assets/Phonecharm/pompomcharm.jpg'
 import '../../components/ProductCard/ProductDetails.css'
 import Header from "../../components/Home/Header"
 import Footer from "../../components/Footer/Footer";
@@ -11,17 +7,13 @@ import Navbar from "../../components/Navbar/Navbar";
 
 
 
-function Kpage8(){
+function Ppage7(){
     return(
         <>
         <Header/>
         <Navbar/>
         <ProductDetails className='Product-details' 
-<<<<<<< HEAD
-        image={img8} name='Strawberry Piggy' price='220'
-=======
-        image={img8} name=' Strawberry Piggy' price='220'
->>>>>>> cd6334f1e8ba4a00363350fd6a8cd9d2b6c05226
+        image={img7} name='Pompom charm' price='220'
         />
         
         <Footer/>
@@ -31,4 +23,4 @@ function Kpage8(){
       </>
     );
 }
-export default Kpage8
+export default Ppage7

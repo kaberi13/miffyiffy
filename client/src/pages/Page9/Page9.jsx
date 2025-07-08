@@ -11,7 +11,7 @@ function Page9(){
         <Header/>
         <Navbar/>
         <ProductDetails className='Product-details'
-        image={img9} name='Red Rose' price='150'/>
+        image={img9} name='Red Rose' price='300'/>
         <Footer/>
         </>
     );
