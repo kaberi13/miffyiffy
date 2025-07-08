@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> cd6334f1e8ba4a00363350fd6a8cd9d2b6c05226
 import ProductDetails from "../../components/ProductCard/Productdetails";
 import img8 from '../../assets/Keychains/StrawberryPiggy.jpg'
 import '../../components/ProductCard/ProductDetails.css'
@@ -17,11 +13,7 @@ function Kpage8(){
         <Header/>
         <Navbar/>
         <ProductDetails className='Product-details' 
-<<<<<<< HEAD
-        image={img8} name='Strawberry Piggy' price='220'
-=======
         image={img8} name=' Strawberry Piggy' price='220'
->>>>>>> cd6334f1e8ba4a00363350fd6a8cd9d2b6c05226
         />
         
         <Footer/>

@@ -36,28 +36,6 @@ function Phonecharm() {
           price="220"
           link="/categories/phonecharm/bluecinnamonroll"
         />
-<<<<<<< HEAD
-        <Card 
-          image={img2} 
-          tittle="Green Butterfly" 
-          price="220" 
-          onWishlistToggle={handleWishlistToggle}
-          link="/categories/phonecharm/GreenButterfly"
-        />
-        <Card 
-          image={img3} 
-          tittle="Pink Butterfly" 
-          price="220" 
-          onWishlistToggle={handleWishlistToggle}
-          link="/categories/phonecharm/PinkButterfly"
-        />
-        <Card 
-          image={img4} 
-          tittle="Kuromi" 
-          price="220" 
-          onWishlistToggle={handleWishlistToggle}
-          link="/categories/phonecharm/Kuromi"
-=======
         <Card
           image={img2}
           tittle="Green Butterfly"
@@ -103,7 +81,6 @@ function Phonecharm() {
           tittle="Hellokitty "
           price="250"
           link="/categories/phonecharm/hellokittycharm"
->>>>>>> cd6334f1e8ba4a00363350fd6a8cd9d2b6c05226
         />
       </div>
 
