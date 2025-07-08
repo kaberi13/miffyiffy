@@ -31,3 +31,9 @@
 .nav-links li a:hover {
   color: black;
 }
+
+.nav-links a.active {
+  color:black;
+  font-weight: bold;
+  /* Add any other active styles you want */
+}

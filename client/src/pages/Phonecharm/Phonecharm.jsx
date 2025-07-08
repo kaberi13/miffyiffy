@@ -13,19 +13,13 @@ import img1 from '../../assets/Phonecharm/bluecinnamonroll.jpg';
 import img2 from '../../assets/Phonecharm/greenbutterfly.jpg';
 import img3 from '../../assets/Phonecharm/pinkbutterfly.jpg';
 import img4 from '../../assets/Phonecharm/kuromi.jpg';
+import img5 from '../../assets/Phonecharm/kuromicharm.jpg';
+import img6 from '../../assets/Phonecharm/cinnamoncharm.jpg';
+import img7 from '../../assets/Phonecharm/pompomcharm.jpg';
+import img8 from '../../assets/Phonecharm/hellokittycharm.jpg';
 
 function Phonecharm() {
-  const [wishlist, setWishlist] = useState([]);
 
-  const handleWishlistToggle = (itemData) => {
-    if (itemData.isWishlisted) {
-      setWishlist(prev => [...prev, itemData]);
-      console.log(`Added ${itemData.tittle} to wishlist`);
-    } else {
-      setWishlist(prev => prev.filter(item => item.tittle !== itemData.tittle));
-      console.log(`Removed ${itemData.tittle} from wishlist`);
-    }
-  };
 
   return (
     <>
@@ -33,40 +27,60 @@ function Phonecharm() {
       <Navbar />
       <h1>Phonecharms</h1>
 
-      {wishlist.length > 0 && (
-        <div className="wishlist-info">
-          <p>❤️ {wishlist.length} item{wishlist.length > 1 ? 's' : ''} in your wishlist</p>
-        </div>
-      )}
+
 
       <div className='card-container'>
-        <Card 
-          image={img1} 
-          tittle="Macaron Cinnamonroll" 
-          price="220" 
-          onWishlistToggle={handleWishlistToggle}
-          link="/categories/phonecharm/Cinnamonroll"
+        <Card
+          image={img1}
+          tittle="Macaron Cinnamonroll"
+          price="220"
+          link="/categories/phonecharm/bluecinnamonroll"
         />
-        <Card 
-          image={img2} 
-          tittle="Green Butterfly" 
-          price="260" 
-          onWishlistToggle={handleWishlistToggle}
-          link="/categories/phonecharm/GreenButterfly"
+        <Card
+          image={img2}
+          tittle="Green Butterfly"
+          price="260"
+          link="/categories/phonecharm/greenbutterfly"
         />
-        <Card 
-          image={img3} 
-          tittle="Pink Butterfly" 
-          price="320" 
-          onWishlistToggle={handleWishlistToggle}
-          link="/categories/phonecharm/PinkButterfly"
+        <Card
+          image={img3}
+          tittle="Pink Butterfly"
+          price="320"
+          link="/categories/phonecharm/pinkbutterfly"
         />
-        <Card 
-          image={img4} 
-          tittle="Kuromi" 
-          price="250" 
-          onWishlistToggle={handleWishlistToggle}
-          link="/categories/phonecharm/Kuromi"
+        <Card
+          image={img4}
+          tittle="Kuromi"
+          price="250"
+          link="/categories/phonecharm/kuromi"
+        />
+
+        <Card
+          image={img5}
+          tittle="Kuromi Charm"
+          price="250"
+          link="/categories/phonecharm/kuromicharm"
+        />
+
+        <Card
+          image={img6}
+          tittle="Cinnamon charm"
+          price="250"
+          link="/categories/phonecharm/cinnamoncharm"
+        />
+
+        <Card
+          image={img7}
+          tittle="Pompom charm"
+          price="250"
+          link="/categories/phonecharm/pompomcharm"
+        />
+
+        <Card
+          image={img4}
+          tittle="Hellokitty "
+          price="250"
+          link="/categories/phonecharm/hellokittycharm"
         />
       </div>
 

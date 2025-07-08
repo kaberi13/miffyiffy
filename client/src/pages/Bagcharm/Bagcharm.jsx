@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import './Bagcharm.css';
 import '../../components/Card/Card.css';
@@ -14,27 +13,11 @@ import img2 from '../../assets/Bagcharm/starcharm.jpg';
 import img3 from '../../assets/Bagcharm/Bowbutterfly.jpg';
 
 function Bagcharm() {
-  const [wishlist, setWishlist] = useState([]);
-
-  const handleWishlistToggle = (itemData) => {
-    if (itemData.isWishlisted) {
-      setWishlist(prev => [...prev, itemData]);
-    } else {
-      setWishlist(prev => prev.filter(item => item.title !== itemData.title));
-    }
-  };
-
   return (
     <>
       <Header />
       <Navbar />
       <h1>Bagcharm</h1>
-
-      {wishlist.length > 0 && (
-        <div className="wishlist-info">
-          <p>❤️ {wishlist.length} item{wishlist.length > 1 ? 's' : ''} in your wishlist</p>
-        </div>
-      )}
 
       <div className='card-container'>
         <Card
@@ -42,7 +25,6 @@ function Bagcharm() {
           tittle="Peach Charm"
           price="220"
           link="/categories/bagcharm/PeachCharm"
-          onWishlistToggle={handleWishlistToggle}
         />
 
         <Card
@@ -50,7 +32,6 @@ function Bagcharm() {
           tittle="Star Charm"
           price="260"
           link="/categories/bagcharm/StarCharm"
-          onWishlistToggle={handleWishlistToggle}
         />
 
         <Card
@@ -58,7 +39,6 @@ function Bagcharm() {
           tittle="Bow Butterfly"
           price="320"
           link="/categories/bagcharm/BowButterfly"
-          onWishlistToggle={handleWishlistToggle}
         />
       </div>
 

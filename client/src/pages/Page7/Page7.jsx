@@ -1,4 +1,4 @@
-import img7 from '../../assets/Bouquets/MixedBouquet.jpg'
+import img7 from '../../assets/Bouquets/mixedbouquet.jpg'
 import ProductDetails from '../../components/ProductCard/Productdetails'
 import Header from '../../components/Home/Header'
 import Footer from '../../components/Footer/Footer'
