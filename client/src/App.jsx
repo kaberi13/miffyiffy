@@ -155,11 +155,7 @@ function App() {
         <Route path="/categories/bouquet/PinkandWhiteRose" element={<Page2 />} />
         <Route path="/categories/bouquet/RoseBouquet" element={<Page3 />} />
         <Route path="/categories/bouquet/DoubleLayeredRose" element={<Page4 />} />
-<<<<<<< HEAD
-        <Route path="/categories/bouquet/Tulip-Roses" element={<Page5 />} />
-=======
         <Route path="/categories/bouquet/tulip" element={<Page5 />} />
->>>>>>> cd6334f1e8ba4a00363350fd6a8cd9d2b6c05226
         <Route path="/categories/bouquet/BlueRose" element={<Page6 />} />
         <Route path="/categories/bouquet/mixedbouquet" element={<Page7 />} />
         <Route path="/categories/bouquet/RedRose" element={<Page9 />} />
