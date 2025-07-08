@@ -35,142 +35,73 @@ function Keychain() {
           image={img1}
           tittle="Capybara"
           price="220"
-<<<<<<< HEAD
-          onWishlistToggle={handleWishlistToggle}
-          link="/categories/keychain/Capybara"
-=======
           link="/products/Capybara"
->>>>>>> cd6334f1e8ba4a00363350fd6a8cd9d2b6c05226
         />
         <Card
           image={img2}
           tittle="Pompompurin"
-<<<<<<< HEAD
-          price="220"
-          onWishlistToggle={handleWishlistToggle}
-          link="/categories/keychain/Pompompurin"
-=======
           price="260"
           link="/products/Pompompurin"
->>>>>>> cd6334f1e8ba4a00363350fd6a8cd9d2b6c05226
         />
         <Card
           image={img3}
           tittle="Cat"
-<<<<<<< HEAD
-          price="220"
-          onWishlistToggle={handleWishlistToggle}
-          link="/categories/keychain/crochetcat"
-=======
           price="320"
           link="/products/CrochetCat"
->>>>>>> cd6334f1e8ba4a00363350fd6a8cd9d2b6c05226
         />
         <Card
           image={img4}
           tittle="Frog"
-<<<<<<< HEAD
-          price="220"
-          onWishlistToggle={handleWishlistToggle}
-          link="/categories/keychain/Frog"
-=======
           price="250"
           link="/products/Frog"
->>>>>>> cd6334f1e8ba4a00363350fd6a8cd9d2b6c05226
         />
         <Card
           image={img5}
           tittle="Tata"
-<<<<<<< HEAD
-          price="220"
-          onWishlistToggle={handleWishlistToggle}
-          link="/categories/keychain/Tata"
-=======
           price="250"
           link="/products/Tata"
->>>>>>> cd6334f1e8ba4a00363350fd6a8cd9d2b6c05226
         />
         <Card
           image={img6}
           tittle="Miffy"
-<<<<<<< HEAD
-          price="220"
-          onWishlistToggle={handleWishlistToggle}
-          link="/categories/keychain/Miffy"
-=======
           price="250"
           link="/products/Miffy"
->>>>>>> cd6334f1e8ba4a00363350fd6a8cd9d2b6c05226
         />
         <Card
           image={img7}
           tittle="Piggy"
-<<<<<<< HEAD
-          price="220"
-          onWishlistToggle={handleWishlistToggle}
-          link="/categories/keychain/Piggy"
-=======
           price="250"
           link="/products/Piggy"
->>>>>>> cd6334f1e8ba4a00363350fd6a8cd9d2b6c05226
         />
         <Card
           image={img8}
           tittle="Strawberry Piggy"
-<<<<<<< HEAD
-          price="220"
-          onWishlistToggle={handleWishlistToggle}
-          link="/categories/keychain/StrawberryPiggy"
-=======
           price="250"
           link="/products/StrawberryPiggy"
->>>>>>> cd6334f1e8ba4a00363350fd6a8cd9d2b6c05226
         />
         <Card
           image={img9}
           tittle="Duck"
-<<<<<<< HEAD
-          price="220"
-          onWishlistToggle={handleWishlistToggle}
-          link="/categories/keychain/Duck"
-=======
           price="250"
           link="/products/Duck"
->>>>>>> cd6334f1e8ba4a00363350fd6a8cd9d2b6c05226
         />
         <Card
           image={img10}
           tittle="Mini Bouquet"
-<<<<<<< HEAD
-          price="220"
-          onWishlistToggle={handleWishlistToggle}
-          link="/categories/keychain/MiniBouquet"
-=======
           price="250"
           link="/products/MiniBouquet"
->>>>>>> cd6334f1e8ba4a00363350fd6a8cd9d2b6c05226
         />
         <Card
           image={img11}
           tittle="Teddy"
           price="250"
-<<<<<<< HEAD
-          onWishlistToggle={handleWishlistToggle}
-          link="/categories/keychain/Teddy"
-=======
           link="products/Teddy"
->>>>>>> cd6334f1e8ba4a00363350fd6a8cd9d2b6c05226
         />
         <Card
           image={img12}
           tittle="Turtle"
           price="250"
-<<<<<<< HEAD
-          onWishlistToggle={handleWishlistToggle}
-          link="/categories/keychain/Turtle"
-=======
           link="/products/Turtle"
->>>>>>> cd6334f1e8ba4a00363350fd6a8cd9d2b6c05226
         />
       </div>
       <Footer />
