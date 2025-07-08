@@ -1,3 +1,4 @@
+
 import { useState } from 'react';
 import './Keychain.css';
 import '../../components/Card/Card.css';
@@ -52,84 +53,84 @@ function Keychain() {
           tittle="Capybara"
           price="220"
           onWishlistToggle={handleWishlistToggle}
-          link="/products/Capybara"
+          link="/categories/keychain/Capybara"
         />
         <Card
           image={img2}
           tittle="Pompompurin"
-          price="260"
+          price="220"
           onWishlistToggle={handleWishlistToggle}
-          link="/products/Pompompurin"
+          link="/categories/keychain/Pompompurin"
         />
         <Card
           image={img3}
           tittle="Cat"
-          price="320"
+          price="220"
           onWishlistToggle={handleWishlistToggle}
-          link="/products/CrochetCat"
+          link="/categories/keychain/crochetcat"
         />
         <Card
           image={img4}
           tittle="Frog"
-          price="250"
+          price="220"
           onWishlistToggle={handleWishlistToggle}
-          link="/products/Frog"
+          link="/categories/keychain/Frog"
         />
         <Card
           image={img5}
           tittle="Tata"
-          price="250"
+          price="220"
           onWishlistToggle={handleWishlistToggle}
-          link="/products/Tata"
+          link="/categories/keychain/Tata"
         />
         <Card
           image={img6}
           tittle="Miffy"
-          price="250"
+          price="220"
           onWishlistToggle={handleWishlistToggle}
-          link="/products/Miffy"
+          link="/categories/keychain/Miffy"
         />
         <Card
           image={img7}
           tittle="Piggy"
-          price="250"
+          price="220"
           onWishlistToggle={handleWishlistToggle}
-          link="/products/Piggy"
+          link="/categories/keychain/Piggy"
         />
         <Card
           image={img8}
           tittle="Strawberry Piggy"
-          price="250"
+          price="220"
           onWishlistToggle={handleWishlistToggle}
-          link="/products/StrawberryPiggy"
+          link="/categories/keychain/StrawberryPiggy"
         />
         <Card
           image={img9}
           tittle="Duck"
-          price="250"
+          price="220"
           onWishlistToggle={handleWishlistToggle}
-          link="/products/Duck"
+          link="/categories/keychain/Duck"
         />
         <Card
           image={img10}
           tittle="Mini Bouquet"
-          price="250"
+          price="220"
           onWishlistToggle={handleWishlistToggle}
-          link="/products/MiniBouquet"
+          link="/categories/keychain/MiniBouquet"
         />
         <Card
           image={img11}
           tittle="Teddy"
           price="250"
           onWishlistToggle={handleWishlistToggle}
-          link="/products/Teddy"
+          link="/categories/keychain/Teddy"
         />
         <Card
           image={img12}
           tittle="Turtle"
           price="250"
           onWishlistToggle={handleWishlistToggle}
-          link="/products/Turtle"
+          link="/categories/keychain/Turtle"
         />
       </div>
       <Footer />

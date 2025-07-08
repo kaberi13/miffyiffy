@@ -50,21 +50,21 @@ function Phonecharm() {
         <Card 
           image={img2} 
           tittle="Green Butterfly" 
-          price="260" 
+          price="220" 
           onWishlistToggle={handleWishlistToggle}
           link="/categories/phonecharm/GreenButterfly"
         />
         <Card 
           image={img3} 
           tittle="Pink Butterfly" 
-          price="320" 
+          price="220" 
           onWishlistToggle={handleWishlistToggle}
           link="/categories/phonecharm/PinkButterfly"
         />
         <Card 
           image={img4} 
           tittle="Kuromi" 
-          price="250" 
+          price="220" 
           onWishlistToggle={handleWishlistToggle}
           link="/categories/phonecharm/Kuromi"
         />

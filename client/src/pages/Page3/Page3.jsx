@@ -11,7 +11,7 @@ function Page3(){
         <Header/>
         <Navbar/>
         <ProductDetails className='Product-details'
-        image={img3} name='Rose Bouquet' price='100'/>
+        image={img3} name='Rose Bouquet' price='320'/>
         <Footer/>
         </>
     );

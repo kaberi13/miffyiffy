@@ -60,8 +60,11 @@ import Kpage4 from "./pages/Page4/Kpage4";
 import Kpage5 from "./pages/Page5/Kpage5";
 import Kpage6 from "./pages/Page6/Kpage6";
 import Kpage7 from "./pages/Page7/Kpage7";
+import Kpage8 from "./pages/Page8/Kpage8";
 import Kpage9 from "./pages/Page9/Kpage9";
 import Kpage10 from "./pages/Page10/Kpage10";
+import Kpage11 from "./pages/Page11/Kpage11";
+import Kpage12 from "./pages/Page12/Kpage12";
 
 function App() {
   const location = useLocation();
@@ -145,10 +148,10 @@ function App() {
 
         {/* Bouquet Product Details */}
         <Route path="/categories/bouquet/Sunflower" element={<Page1 />} />
-        <Route path="/categories/bouquet/DoubleLayeredRose" element={<Page2 />} />
-        <Route path="/categories/bouquet/Tulip&Roses" element={<Page3 />} />
-        <Route path="/categories/bouquet/PinkandWhiteRose" element={<Page4 />} />
-        <Route path="/categories/bouquet/RoseBouquet" element={<Page5 />} />
+        <Route path="/categories/bouquet/PinkandWhiteRose" element={<Page2 />} />
+        <Route path="/categories/bouquet/RoseBouquet" element={<Page3 />} />
+        <Route path="/categories/bouquet/DoubleLayeredRose" element={<Page4 />} />
+        <Route path="/categories/bouquet/Tulip-Roses" element={<Page5 />} />
         <Route path="/categories/bouquet/BlueRose" element={<Page6 />} />
         <Route path="/categories/bouquet/MixedBouquet" element={<Page7 />} />
         <Route path="/categories/bouquet/RedRose" element={<Page9 />} />
@@ -175,8 +178,11 @@ function App() {
         <Route path="/categories/keychain/Tata" element={<Kpage5 />} />
         <Route path="/categories/keychain/Miffy" element={<Kpage6 />} />
         <Route path="/categories/keychain/Piggy" element={<Kpage7 />} />
+        <Route path="/categories/keychain/StrawberryPiggy" element={<Kpage8 />} />
         <Route path="/categories/keychain/Duck" element={<Kpage9 />} />
         <Route path="/categories/keychain/MiniBouquet" element={<Kpage10 />} />
+        <Route path="/categories/keychain/Teddy" element={<Kpage11 />} />
+        <Route path="/categories/keychain/Turtle" element={<Kpage12 />} />
       </Routes>
     </>
   );

@@ -13,7 +13,7 @@ function Bpage3(){
         <Header/>
         <Navbar/>
         <ProductDetails className='Product-details' 
-        image={img3} name='Bow Butterfly' price='220'
+        image={img3} name='Bow Butterfly' price='320'
         />
         
         <Footer/>

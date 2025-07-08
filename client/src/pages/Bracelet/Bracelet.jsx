@@ -42,14 +42,14 @@ function Bracelet() {
         <Card
           image={img1}
           tittle="Star bracelet"
-          price="220"
+          price="200"
           onWishlistToggle={handleWishlistToggle}
           link="/categories/bracelet/StarBracelet" // ✅ Link to detail page
         />
         <Card
           image={img2}
           tittle="Blue bracelet"
-          price="260"
+          price="200"
           onWishlistToggle={handleWishlistToggle}
           link="/categories/bracelet/BlueBracelet" // ✅ Link to detail page
         />

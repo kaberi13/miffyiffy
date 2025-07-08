@@ -14,7 +14,7 @@ function Brpage1(){
         <Header/>
         <Navbar/>
         <ProductDetails className='Product-details' 
-        image={img1} name='star bracelet' price='220'
+        image={img1} name='star bracelet' price='200'
         />
         
         <Footer/>
