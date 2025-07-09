@@ -28,9 +28,9 @@ function ProductDetails({image, name, brand, price}){
           <input type="number" value={quantity} readOnly />
           <button onClick={handleIncrease}>+</button>
         </div>
-
-        <button className="wishlist-btn">♡ Add to wishlist</button>
-        <button className="add-cart-btn">Add to cart</button>
+{/* 
+        <button className="wishlist-btn">♡ Add to wishlist</button> */}
+        <button className="add-cart-btn">♡ Add to cart</button>
         <button className="buy-now-btn">Buy it now</button>
 
         
