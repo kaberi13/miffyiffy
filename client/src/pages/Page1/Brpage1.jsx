@@ -1,5 +1,5 @@
 
-import ProductDetails from "../../components/ProductCard/Productdetails";
+import ProductDetails from "../../components/ProductCard/ProductDetails";
 import img1 from '../../assets/bracelet1.jpg'
 import '../../components/ProductCard/ProductDetails.css'
 import Header from "../../components/Home/Header"
@@ -14,7 +14,8 @@ function Brpage1(){
         <Header/>
         <Navbar/>
         <ProductDetails className='Product-details' 
-        image={img1} name='star bracelet' price='200'
+        
+        image={img1} name='star bracelet' price='220'
         />
         
         <Footer/>

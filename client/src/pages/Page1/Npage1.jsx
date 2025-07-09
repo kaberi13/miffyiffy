@@ -1,5 +1,5 @@
 
-import ProductDetails from "../../components/ProductCard/Productdetails";
+import ProductDetails from "../../components/ProductCard/ProductDetails";
 import img1 from '../../assets/neckchain1.jpg'
 import '../../components/ProductCard/ProductDetails.css'
 import Header from "../../components/Home/Header"
@@ -14,6 +14,7 @@ function Npage1(){
         <Header/>
         <Navbar/>
         <ProductDetails className='Product-details' 
+        id='heartsandbows-neckchain'
         image={img1} name='HeartsAndBows' price='200'
         />
         

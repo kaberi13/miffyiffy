@@ -8,9 +8,11 @@ import Kpage4 from '../../pages/Page4/Kpage4';
 import Kpage5 from '../../pages/Page5/Kpage5';
 import Kpage6 from '../../pages/Page6/Kpage6';
 import Kpage7 from '../../pages/Page7/Kpage7';
-// import Kpage8 from '../../pages/Page8/Kpage8';
+import Kpage8 from '../../pages/Page8/Kpage8';
 import Kpage9 from '../../pages/Page9/Kpage9';
 import Kpage10 from '../../pages/Page10/Kpage10';
+import Kpage11 from '../../pages/Page11/Kpage11';
+import Kpage12 from '../../pages/Page12/Kpage12';
 
 export default function ProductPage() {
   const { id } = useParams();
@@ -30,12 +32,17 @@ export default function ProductPage() {
       return <Kpage6 />;
     case 'Piggy':
       return <Kpage7 />;
-    // case 'StrawberryPiggy':
-    //   return <Kpage8 />;
+    case 'StrawberryPiggy':
+      return <Kpage8 />;
     case 'Duck':
       return <Kpage9 />;
     case 'MiniBouquet':
       return <Kpage10 />;
+    case 'Teddy':
+      return <Kpage11/>;
+    case 'Turtle':
+      return <Kpage12/>;  
+
     default:
       return <div>Product Not Found</div>;
   }

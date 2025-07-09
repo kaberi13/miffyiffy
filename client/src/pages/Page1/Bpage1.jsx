@@ -1,4 +1,4 @@
-import ProductDetails from "../../components/ProductCard/Productdetails";
+import ProductDetails from "../../components/ProductCard/ProductDetails";
 import img1 from '../../assets/Bagcharm/peachcharm.jpg'
 import '../../components/ProductCard/ProductDetails.css'
 import Header from "../../components/Home/Header"
@@ -14,6 +14,7 @@ return (
       <Header />
       <Navbar />
       <ProductDetails className='Product-details'
+      id='peachcharm-bagcharm'
         image={img1} name='Peach Charm' price='220'
         
       />

@@ -1,4 +1,4 @@
-import ProductDetails from "../../components/ProductCard/Productdetails";
+import ProductDetails from "../../components/ProductCard/ProductDetails";
 import img1 from '../../assets/Phonecharm/bluecinnamonroll.jpg'
 import '../../components/ProductCard/ProductDetails.css'
 import Header from "../../components/Home/Header"
@@ -13,6 +13,7 @@ function Ppage1(){
         <Header/>
         <Navbar/>
         <ProductDetails className='Product-details' 
+        id='bluecinnamonroll-phonecharm'
         image={img1} name='Macaron Cinnamonroll' price='220'
         />
         
