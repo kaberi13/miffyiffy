@@ -14,7 +14,7 @@ function Kpage11(){
         <Header/>
         <Navbar/>
         <ProductDetails className='Product-details' 
-        image={img12} name='Mini teddy' price='220'
+        image={img12} name='Teddy' price='250'
         />
         
         <Footer/>

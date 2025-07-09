@@ -1,5 +1,5 @@
 .navbar {
-  background-color:antiquewhite;
+  background-color: antiquewhite;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -10,8 +10,6 @@
   z-index: 1000;
 }
 
-
-
 :root {
   --nav-gap: 2rem;
 }
@@ -19,17 +17,23 @@
 .nav-links {
   list-style: none;
   display: flex;
-  gap: var(--nav-gap, 2rem);
+  gap: var(--nav-gap, 2rem); /* Equal gap between all links */
   padding: 0;
   margin: 0;
-  justify-content: center;
+  justify-content: space-evenly; /* Centers the entire group of links */
 }
+
+/* .nav-links li { */
+  /* Remove flex: 1 to keep natural link widths */
+
 
 .nav-links li a {
   text-decoration: none;
   color: #d14e7b;
   font-weight: 500;
   transition: color 0.2s ease;
+  display: block; /* Makes the entire li area clickable */
+  padding: 10px 5px; /* Adds some padding for better click area */
 }
 
 .nav-links li a:hover {
@@ -37,7 +41,6 @@
 }
 
 .nav-links a.active {
-  color:black;
+  color: black;
   font-weight: bold;
-  /* Add any other active styles you want */
 }
