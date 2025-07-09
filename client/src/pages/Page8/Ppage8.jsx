@@ -1,4 +1,4 @@
-import ProductDetails from "../../components/ProductCard/Productdetails";
+import ProductDetails from "../../components/ProductCard/ProductDetails";
 import img8 from '../../assets/Phonecharm/hellokittycharm.jpg'
 import '../../components/ProductCard/ProductDetails.css'
 import Header from "../../components/Home/Header"

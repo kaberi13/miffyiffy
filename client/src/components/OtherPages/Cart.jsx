@@ -10,21 +10,6 @@ export default function Cart() {
   const navigate = useNavigate();
   const { cartItems, updateQuantity, removeFromCart, getCartTotal } = useCart();
 
-  const updateQuantity = (id, amount) => {
-    setCartItems(prev =>
-      prev.map(item =>
-        item.id === id
-          ? { ...item, quantity: Math.max(1, item.quantity + amount) }
-          : item
-      )
-    );
-  };
-
-  const removeItem = id => {
-    setCartItems(prev => prev.filter(item => item.id !== id));
-  };
-
-
   const subtotal = cartItems.reduce((sum, item) => sum + item.price * item.quantity, 0);
   const delivery = subtotal > 1000 ? 0 : 80;
   const total = subtotal + delivery;
@@ -32,7 +17,10 @@ export default function Cart() {
   const handleUpdateQuantity = (id, change) => {
     const item = cartItems.find(item => item.id === id);
     if (item) {
-      updateQuantity(id, item.quantity + change);
+      const newQuantity = item.quantity + change;
+      if (newQuantity > 0) {
+        updateQuantity(id, newQuantity);
+      }
     }
   };
 

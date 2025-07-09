@@ -1,5 +1,5 @@
 import img3 from '../../assets/Bouquets/RoseBouquet.jpg'
-import ProductDetails from '../../components/ProductCard/Productdetails'
+import ProductDetails from '../../components/ProductCard/ProductDetails'
 import Header from '../../components/Home/Header'
 import Footer from '../../components/Footer/Footer'
 import '../../components/ProductCard/ProductDetails.css'
